@@ -11,40 +11,16 @@ import Hero from "./components/Hero/Hero";
 const Navbar =()=>{
     return(
     <body>
-    <div>
-        <Header></Header>
-    <nav>
-    <Link href="/about"><button>About</button></Link> 
-    <Link href="/Contact"><button>Contact</button></Link>
-    <Link href="/Service"><button>Services</button></Link>
+    <div  className="bg-red-200">
+    <Header></Header>
+    <nav className="bg-emerald-400" >
+    <Link href="/about">  <button className="p-2 w-[100px] bg-neutral-200 m-1 border-black border-2 rounded-md">About</button></Link> 
+    <Link href="/Contact"><button className="p-2 w-[100px] bg-neutral-200 m-1 border-black border-2 rounded-md">Contact</button></Link>
+    <Link href="/Service"><button className="p-2 w-[100px] bg-neutral-200 m-1 border-black border-2 rounded-md">Services</button></Link>
     </nav>
-        <br/>
         <Hero></Hero>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-           <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <Footer></Footer>
-        <br />
-        <br />
-        <br />
-        
         </div>
-        {/* <a>
-        <img id="image" src="/images/school-img.jpg"/>
-        </a>           */}
     </body>
     );
 }
